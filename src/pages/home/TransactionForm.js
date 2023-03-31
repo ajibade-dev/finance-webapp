@@ -8,7 +8,7 @@ function TransactionForm({ uid }) {
 
     const handelSubmit = (e) => {
         e.preventDefault()
-        addDocument({uid, name, amount})
+            addDocument({uid, name, amount,})
     }
     //reset the from fields
     useEffect(() => {
